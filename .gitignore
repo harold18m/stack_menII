@@ -1,0 +1,32 @@
+# Ignorar directorios generados automáticamente
+node_modules/
+dist/
+
+# Ignorar archivos de configuración local
+.env
+
+# Ignorar archivos de registro y archivos temporales
+logs/
+*.log
+npm-debug.log*
+
+# Ignorar archivos de respaldo y caché
+*.bak
+*.cache
+*.tgz
+
+# Ignorar archivos de dependencias específicos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración de IDE o editores
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignorar archivos de compilación y paquetes
+package-lock.json
+yarn.lock
+
+# Ignorar archivos de registro de pruebas
+coverage/
