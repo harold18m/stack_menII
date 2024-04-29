@@ -14,12 +14,10 @@ app.use(express.json())
 
 app.use(express.static('public'))
 
-
-//app.get('/index', (req, res) => {
-//    res.send('Hola mundo con JWCA')
-//})
+// Usamos las rutas de cliente
 app.use('/', cliente);
 
+// Iniciamos el servidor
 app.listen(5000, () => {
     console.log('!Server UP! en http://localhost:5000')
 })
